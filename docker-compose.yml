@@ -1,0 +1,6 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "8000:27017"
