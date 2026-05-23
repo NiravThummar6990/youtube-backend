@@ -18,8 +18,8 @@ const registerUser = asyncHandler(async (req, res) => {
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   // get user details  from frontend
-  // console.log("REQ FILES => ", req.files);
-  // console.log("REQ BODY => ", req.body);
+  console.log("REQ FILES => ", req.files);
+  console.log("REQ BODY => ", req.body);
 
   const { fullName, email, userName, password } = req.body;
   // console.log(fullName, email, userName, password);

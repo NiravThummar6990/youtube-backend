@@ -1,4 +1,4 @@
-import "./constants.js";
+import "./constrants.js";
 
 import { app } from "./app.js";
 import connectDB from "./db/index.js";
